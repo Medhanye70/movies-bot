@@ -66,7 +66,7 @@ app = Flask(__name__)
 
 @app.route('/')
 def index():
-    return 'Hello World!'
+    return 'Join My Telegram Channel & Download You Want Movies'
 
 
 @app.route('/{}'.format(TOKEN), methods=['GET', 'POST'])
